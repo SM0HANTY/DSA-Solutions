@@ -10,7 +10,7 @@ It will be **updated daily** to cover high-impact DSA topics for interviews and 
 
 - ✅ Arrays    
 - ✅ Sorting & Searching  
-- ✅ Bit Manipulation  
+- ✅ Linked Lists  
 - ✅ Math & Number Theory  
 
 ---
