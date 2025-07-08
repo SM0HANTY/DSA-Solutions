@@ -10,6 +10,7 @@ public:
     int dominantIndex(vector<int>& nums) {
         int maxi=INT_MIN;
         int index=0;
+        int n=nums.size();
         for(int i=0;i<nums.size();i++){
             if(maxi<nums[i]){
                 maxi=nums[i];
@@ -17,10 +18,8 @@ public:
             }
         }
         sort(nums.begin(),nums.end());
-        for(int i=0;i<nums.size()-1;i++){
-            if(nums[i]*2>maxi){
-                return -1;
-            }
+        if(2*nums[n-2]>nums[n-1]){
+            return -1;
         }
         return index;
         
