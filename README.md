@@ -45,7 +45,7 @@ Want to help grow this repo? Contributing is easy:
 
 ## 🛠️ Languages Used
 
-- 💻 **C++**  
+- 💻 **C++** , **Java** 
 _(More languages will be added soon!)_
 
 ---
